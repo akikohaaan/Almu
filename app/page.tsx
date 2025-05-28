@@ -2,36 +2,24 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="text-center py-16 px-4 space-y-8">
-      <div className="flex justify-center">
-         <Image
-        src="/AlmuLogoWithNatureAndGirl.png"
+    <main className="relative min-h-screen">
+      {/* 背景画像 */}
+      <Image
+        src="/AlmuLogoWithNatureAndGirl.jpg"
         alt="Almu hero"
         layout="fill"
         objectFit="cover"
         priority
       />
 
-      {/* <Image
-        src="/AlmuLogo.png"
-        alt="AlmuLogo"
-        width={160}
-        height={160}
-        className="mx-auto"
-      /> */}
+      {/* 重ねるコンテンツ */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-white text-center h-screen bg-black bg-opacity-40">
+        <h1 className="text-4xl md:text-6xl font-bold">INNTER STRENGTH - 頑張る人に手を差し伸べる。</h1>
+        <p className="text-lg md:text-2xl mt-4">分子栄養学で支えるあなたの夢。</p>
+        <button className="mt-6 px-6 py-3 bg-pink-600 hover:bg-pink-700 rounded shadow">
+          商品を見る
+        </button>
       </div>
-
-      {/* キャッチコピー */}
-      <h1 className="text-4xl font-bold text-green-800">Almu</h1>
-      <p className="text-xl text-gray-600 tracking-wide">INNTER STRENGTH - 頑張る人に手を差し伸べる。</p>
-      <p className="text-gray-600">分子栄養学で支えるあなたの夢。</p>
-      <div className="mt-6 space-x-4">
-        <section><button>CONCEPT</button></section>
-        <section><button className="bg-green-600 text-white py-2 px-6 rounded hover:bg-green-700 transition">PRODUCT</button></section>
-        <section><button>使用シーン</button></section>
-        <section><button>記録機能紹介</button></section>
-      </div>
-      <footer></footer>
     </main>
   );
 }
