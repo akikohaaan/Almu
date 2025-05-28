@@ -8,20 +8,20 @@ export default function Home() {
     <main className="font-sans text-gray-800">
        <section className="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden"></section>
         {/* 背景画像 */}
-        <Image
+        {/* <Image
           src="/AlmuLogoWithNatureAndGirl.jpg"
           alt="Almu hero"
           fill
           className='object-cover brightness-75'
           priority
-        />
+        /> */}
 
         {/* ロゴとテキスト */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          classNAme="z-10 text-white px-4 space-y-6"
+          className="z-10 text-white px-4 space-y-6"
           >
           <Image
           src="/Almulogo.png"
