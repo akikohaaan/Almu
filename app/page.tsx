@@ -12,7 +12,7 @@ export default function Home() {
       <section className="relative h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
         <Image
-        　src="/AlmuLogoWithNatureAndGirl.jpg"
+        　src="/AlmuLogoWithNatureAndGirl.png"
           alt="Almu Hero background"
           layout="fill"
           objectFit="cover"
