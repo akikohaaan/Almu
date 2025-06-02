@@ -9,14 +9,15 @@ export default function Home() {
   return (
     <main className="font-sans text-gray-800">
       {/* 🌄 Hero Section */}
-      
-      <section className="relative h-screen flex flex-col justify-center items-center text-center overflow-hidden">
+      <section className="relative h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
         <Image
-          src="/AlmuLogoWithNatureAndGirl.jpg"
-          alt="Almu Hero"
-          fill
-          className="object-cover brightness-75"
+        　src="/AlmuLogoWithNatureAndGirl.jpg"
+          alt="Almu Hero background"
+          layout="fill"
+          objectFit="cover"
+          quality={80}
+          className="-z-10"
           priority
         />
 
@@ -30,15 +31,15 @@ export default function Home() {
           <Image
             src="/AlmuLogo.png"
             alt="Almu Logo"
-            width={180}
-            height={180}
-            className="mx-auto"
+            width={160}
+            height={160}
+            className="mb-6"
           />
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
-            夢に向かって孤独に戦うあなたに手を添える。
+            夢に向かって孤独に歩むあなたに手を添える。
           </h1>
           <p className="text-lg drop-shadow">
-            分子栄養学に基づく細胞から支えるスナック
+            分子栄養学に基づく細胞から支えるスナック『Almu』
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
             <button className="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded">
@@ -51,17 +52,17 @@ export default function Home() {
         </motion.div>
       </section>
       <section className="px-6 py-12 bg-white text-center">
-  <h2 className="text-3xl font-semibold text-gray-800">Almuの想い</h2>
-  <p className="mt-6 text-gray-700 leading-loose">
-    夢に向かって一歩ずつ進むあなたへ。<br />
-    誰にも頼れない夜、孤独のなかでふと手に取るスナックが、<br />
-    あなたを内側からそっと支えられたら。<br />
-    <br />
-    Almuは、分子栄養学に基づいた<br />
-    高機能・低糖質・高タンパクのスナック。<br />
-    細胞レベルで、あなたの「本当の力」を引き出します。
-  </p>
-</section>
+        <h2 className="text-3xl font-semibold text-gray-800">Almuの想い</h2>
+        <p className="mt-6 text-gray-700 leading-loose">
+          夢に向かって歩みを止めないあなたへ。<br />
+          誰にも頼れない夜、孤独のなかでふと手に取るスナックが、<br />
+          あなたを内側からそっと支えられたら。<br />
+          <br />
+          Almuは、分子栄養学に基づいた<br />
+          高機能・低糖質・高タンパクのスナック。<br />
+          細胞レベルで、あなたの「本当の力」を引き出します。
+        </p>
+      </section>
     </main>
   );
 }
