@@ -10,6 +10,7 @@ export default function Home() {
     <main className="font-sans text-gray-800">
       {/* 🌄 Hero Section */}
       
+
       <section className="relative h-screen w-full flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
         
@@ -28,7 +29,7 @@ export default function Home() {
             className="mb-6"
           />
           <Image
-            src="/AlmuLogoWithNatureAndGirl.png?v=2"
+            src="/AlmuLogoWithNatureAndGirl.png"
             alt="Almu Hero background"
             fill
             className="object-cover -z-10"
