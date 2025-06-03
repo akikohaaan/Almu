@@ -24,8 +24,8 @@ export default function Home() {
           <Image
             src="/AlmuLogo.png"
             alt="Almu Logo"
-            width={160}
-            height={160}
+            width={150}
+            height={170}
             className="mb-6"
           />
           <Image
@@ -36,7 +36,7 @@ export default function Home() {
             priority
           />
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
-            夢に向かって孤独に歩むあなたに手を添える。aaaa
+            夢に向かって孤独に歩むあなたに手を添える。
           </h1>
           <p className="text-lg drop-shadow">
             分子栄養学に基づく細胞から支えるスナック『Almu』
