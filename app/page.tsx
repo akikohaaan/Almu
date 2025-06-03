@@ -28,7 +28,7 @@ export default function Home() {
             className="mb-6"
           />
           <Image
-            src="/AlmuLogoWithNatureAndGirl.png"
+            src="/public/AlmuLogoWithNatureAndGirl.png
             alt="Almu Hero background"
             fill
             className="object-cover -z-10"
