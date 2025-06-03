@@ -12,22 +12,7 @@ export default function Home() {
       
       <section className="relative h-screen w-full flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
-        <Image
-        　src="/AlmuLogoWithNatureAndGirl.png"
-          alt="Almu Hero background"
-          layout="fill"
-          objectFit="cover"
-          quality={80}
-          className="-z-10"
-          priority
-        />
-        <Image
-            src="/AlmuLogoWithNatureAndGirl.png"
-            alt="Almu Hero background"
-            fill
-            className="object-cover -z-10"
-            priority
-          />
+        
         {/* ロゴとテキスト */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -42,8 +27,15 @@ export default function Home() {
             height={160}
             className="mb-6"
           />
+          <Image
+            src="/AlmuLogoWithNatureAndGirl.png"
+            alt="Almu Hero background"
+            fill
+            className="object-cover -z-10"
+            priority
+          />
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
-            夢に向かって孤独に歩むあなたに手を添える。
+            夢に向かって孤独に歩むあなたに手を添える。aaaa
           </h1>
           <p className="text-lg drop-shadow">
             分子栄養学に基づく細胞から支えるスナック『Almu』
