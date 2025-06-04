@@ -11,7 +11,7 @@ export default function Home() {
       {/* 🌄 Hero Section */}
       
 
-      <section className="relative h-[85vh] flex flex-col justify-center items-center text-center text-white bg-black/50">
+      <section className="relative h-[70vh] flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
         
         {/* ロゴとテキスト */}
