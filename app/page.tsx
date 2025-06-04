@@ -11,7 +11,8 @@ export default function Home() {
       {/* 🌄 Hero Section */}
       
 
-      <section className="relative h-full flex flex-col justify-center items-center text-center text-white bg-black/50">
+      <section className="relative h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
+
         {/* 背景画像 */}
         
         {/* ロゴとテキスト */}
@@ -26,15 +27,20 @@ export default function Home() {
             alt="Almu Logo"
             width={160}
             height={160}
-            className="mb-6 opacity-true justify-center items-center text-center"
+            // className="mb-6 opacity-true justify-center items-center text-center"
+            className="mb-6 mx-auto"
           />
-          <Image
-            src="/AlmuLogoWithNatureAndGirl.png"
-            alt="Almu Hero background"
-            fill
-            className="object-cover -z-10"
-            priority
-          />
+          
+          <div className="absolute inset-0 top-10">
+            <Image
+              src="/AlmuLogoWithNatureAndGirl.png"
+              alt="Almu Hero background"
+              fill
+              className="object-cover object-top  -z-10"
+              priority
+            />
+          </div>
+
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
             夢に向かって孤独に歩むあなたに手を添える。
           </h1>
