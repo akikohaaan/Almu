@@ -32,7 +32,7 @@ export default function Home() {
             src="/AlmuLogoWithNatureAndGirl.png"
             alt="Almu Hero background"
             fill
-            className="object-cover -z-10"
+            className="object-cover object-top -z-10"
             priority
           />
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
