@@ -26,7 +26,7 @@ export default function Home() {
             alt="Almu Logo"
             width={160}
             height={160}
-            className="mb-6 opacity-true"
+            className="mb-6 opacity-true justify-center items-center text-center"
           />
           <Image
             src="/AlmuLogoWithNatureAndGirl.png"
