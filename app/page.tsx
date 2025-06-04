@@ -11,7 +11,7 @@ export default function Home() {
       {/* 🌄 Hero Section */}
       
 
-      <section className="relative h-[70vh] flex flex-col justify-center items-center text-center text-white bg-black/50">
+      <section className="relative h-[100vh] flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
         
         {/* ロゴとテキスト */}
@@ -32,7 +32,7 @@ export default function Home() {
             src="/AlmuLogoWithNatureAndGirl.png"
             alt="Almu Hero background"
             fill
-            className="object-cover object-top -z-10"
+            className="object-cover object-top-10 -z-10"
             priority
           />
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
