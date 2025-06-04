@@ -24,9 +24,9 @@ export default function Home() {
           <Image
             src="/AlmuLogo.png"
             alt="Almu Logo"
-            width={180}
-            height={180}
-            className="mb-6"
+            width={160}
+            height={160}
+            className="mb-6 opacity-true"
           />
           <Image
             src="/AlmuLogoWithNatureAndGirl.png"
