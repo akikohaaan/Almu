@@ -31,7 +31,7 @@ export default function Home() {
             className="mb-6 mx-auto"
           />
           
-          <div className="absolute inset-0 top10">
+          <div className="absolute inset-0 top-15">
             <Image
               src="/BackGround.jpg"
               alt="Almu Hero background"
