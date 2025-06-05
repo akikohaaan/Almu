@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -13,7 +14,14 @@ export default function Header() {
                 <div className="bg-white shadow-md">
                     <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
                         <Link href="/">
-                            <span className="text-xl font-bold text-green-700">Almu</span>
+                            <Image
+                                src="/AlmuLogo.png"
+                                alt="Almu Logo"
+                                width={160}
+                                height={160}
+                                // className="mb-6 opacity-true justify-center items-center text-center"
+                                className="mb-6 mx-auto"
+                            />
                         </Link>
 
                         {/* ナビゲーションリンク */}

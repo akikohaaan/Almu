@@ -22,7 +22,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="z-10 text-white px-4 space-y-6"
         >
-          <Image
+          {/* <Image
             src="/AlmuLogo.png"
             alt="Almu Logo"
             width={160}
@@ -30,10 +30,10 @@ export default function Home() {
             // className="mb-6 opacity-true justify-center items-center text-center"
             className="mb-6 mx-auto"
           />
-          
+           */}
           <div className="absolute inset-0 [object-position:50%_90%]">
             <Image
-              src="/EVERESTBC_HERO.JPG"
+              src="/AlmuLogoWithNature.png"
               alt="Almu Hero background"
               fill
               className="object-cover object-bottom -z-10"
