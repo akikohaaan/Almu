@@ -36,7 +36,7 @@ export default function Home() {
               src="/BackGround.jpg"
               alt="Almu Hero background"
               fill
-              className="object-cover object-top  -z-10"
+              className="object-cover object-bottom -z-10"
               priority
             />
           </div>
