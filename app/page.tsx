@@ -31,7 +31,7 @@ export default function Home() {
             className="mb-6 mx-auto"
           />
           
-          <div className="absolute inset-0 [object-position:50%_80%]">
+          <div className="absolute inset-0 [object-position:50%_60%]">
             <Image
               src="/EVERESTBC_HERO.JPG"
               alt="Almu Hero background"
