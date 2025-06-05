@@ -17,9 +17,8 @@ export default function Header() {
                             <Image
                                 src="/AlmuLogo.png"
                                 alt="Almu Logo"
-                                width={160}
-                                height={160}
-                                // className="mb-6 opacity-true justify-center items-center text-center"
+                                width={30}
+                                height={30}
                                 className="mb-6 mx-auto"
                             />
                         </Link>
