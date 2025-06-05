@@ -33,7 +33,7 @@ export default function Home() {
           
           <div className="absolute inset-0 top-15">
             <Image
-              src="\EVERESTBC_HERO.JPG"
+              src="/EVERESTBC_HERO.JPG"
               alt="Almu Hero background"
               fill
               className="object-cover object-bottom -z-10"
