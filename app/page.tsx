@@ -11,7 +11,7 @@ export default function Home() {
       {/* 🌄 Hero Section */}
       
 
-      <section className="relative h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
+      <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
 
         {/* 背景画像 */}
         
@@ -33,7 +33,7 @@ export default function Home() {
           
           <div className="absolute inset-0 top-15">
             <Image
-              src="/BackGround.jpg"
+              src="/EVERESTBC_HERO.jpg"
               alt="Almu Hero background"
               fill
               className="object-cover object-bottom -z-10"
