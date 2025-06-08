@@ -15,9 +15,9 @@ export default function Header() {
                     <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
                         <Link href="/">
                             <Image
-                                src="/AlmuLogo.png"
+                                src="/AlmuLogoRecutangular.png"
                                 alt="Almu Logo"
-                                width={30}
+                                width={140}
                                 height={30}
                                 className="mb-6 mx-auto"
                             />

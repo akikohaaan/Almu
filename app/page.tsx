@@ -48,11 +48,8 @@ export default function Home() {
             分子栄養学に基づく細胞から支えるスナック『Almu』
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-            <button className="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded">
+            <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
               商品を見る
-            </button>
-            <button className="bg-white/90 text-pink-700 hover:bg-white px-6 py-3 rounded font-semibold">
-              ログを記録
             </button>
           </div>
         </motion.div>
