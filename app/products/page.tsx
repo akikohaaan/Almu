@@ -1,7 +1,6 @@
-// app/products/page.tsx
-import ProductCard from "@/components/ProductCard";
+import { Product } from "@/types/product";
 
-const products = [
+const products: Product[] = [
   {
     id: "mct",
     name: "Almu MCT Boost",
@@ -13,22 +12,9 @@ const products = [
   {
     id: "monkfruit",
     name: "Almu Monk Sweet",
-    description: "血糖値に影響しない甘さ。アウトドアにも◎",
+    description: "血糖値に影響しない甘さ。アウトドアにも◎。",
     image: "/images/monkfruit.jpg",
     variants: ["個包装", "100g袋"],
     tags: ["糖質制限", "抗酸化"],
   },
 ];
-
-export default function ProductsPage() {
-  return (
-    <main className="p-6 space-y-8">
-      <h1 className="text-4xl font-bold text-center">商品一覧</h1>
-      <div className="grid gap-6 md:grid-cols-2">
-        {products.map((item) => (
-          <ProductCard key={item.id} product={item} />
-        ))}
-      </div>
-    </main>
-  );
-}

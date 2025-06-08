@@ -1,7 +1,12 @@
 // components/ProductCard.tsx
 import Image from "next/image";
+import { Product } from "../types/product"; // パス注意！
 
-export default function ProductCard({ product }) {
+type Props = {
+  product: Product;
+};
+
+export default function ProductCard({ product }: Props) {
   return (
     <div className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
       <Image
@@ -15,8 +20,10 @@ export default function ProductCard({ product }) {
         <h2 className="text-2xl font-semibold">{product.name}</h2>
         <p className="text-sm text-gray-600">{product.description}</p>
         <ul className="flex flex-wrap gap-2 text-xs text-white">
-          {product.tags.map((tag, index) => (
-            <li key={index} className="bg-pink-600 px-2 py-1 rounded">{tag}</li>
+          {product.tags.map((tag:string, index:string) => (
+            <li key={index} className="bg-pink-600 px-2 py-1 rounded">
+              {tag}
+            </li>
           ))}
         </ul>
       </div>
