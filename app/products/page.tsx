@@ -1,5 +1,4 @@
 import { Product } from "../types/product";
-// import ProductCard from "../components/ProductCard";
 
 const products: Product[] = [
   {
