@@ -6,3 +6,5 @@ type Product = {
   tags: string[];
   variants: string[];
 }
+
+export type { Product };

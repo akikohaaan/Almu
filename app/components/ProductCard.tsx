@@ -1,6 +1,7 @@
 // components/ProductCard.tsx
 import Image from "next/image";
-import { Product } from "../types/product"; // パス注意！
+import { Product } from "@types/product";
+
 
 type Props = {
   product: Product;
