@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Product } from "@types/Product";
-
+import { Product } from "app/types/product";
 
 type Props = {
   product: Product;
