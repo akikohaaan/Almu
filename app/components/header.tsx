@@ -13,18 +13,19 @@ export default function Header() {
             {/* 🌟 ヘッダーナビゲーションバー */}
                 <div className="bg-white shadow-md">
                     <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                        <Link href="/">
-                            <Image
-                                src="/AlmuLogoRecutangular.png"
-                                alt="Almu Logo"
-                                width={120}
-                                height={120}
-                                className="mb-6 mx-auto"
-                            />
-                        </Link>
-
+                       
                         {/* ナビゲーションリンク */}
                         <nav className="flex space-x-6 text-sm">
+                             <Link href="/">
+                                <Image
+                                    src="/AlmuLogoRecutangular.png"
+                                    alt="Almu Logo"
+                                    width={120}
+                                    height={120}
+                                    className="mb-6 mx-auto"
+                                />
+                            </Link>
+
                             <Link href="/products" className="text-gray-700 hover:underline">
                                 商品一覧
                             </Link>

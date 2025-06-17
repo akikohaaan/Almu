@@ -1,20 +1,15 @@
-// app/page.tsx
-
 'use client';
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link'; 
 
 export default function Home() {
   return (
     <main className="font-sans text-gray-800">
       {/* 🌄 Hero Section */}
-      
-
       <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
 
-        {/* 背景画像 */}
-        
         {/* ロゴとテキスト */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -22,24 +17,15 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="z-10 text-white px-4 space-y-6"
         >
-          {/* <Image
-            src="/AlmuLogo.png"
-            alt="Almu Logo"
-            width={160}
-            height={160}
-            // className="mb-6 opacity-true justify-center items-center text-center"
-            className="mb-6 mx-auto"
+        <div className="absolute inset-0 [object-position:50%_30%]">
+          <Image
+            src="/AlmuLogoWithNature.png"
+            alt="Almu Hero background"
+            fill
+            className="object-cover object-bottom -z-10"
+            priority
           />
-           */}
-          <div className="absolute inset-0 [object-position:50%_30%]">
-            <Image
-              src="/AlmuLogoWithNature.png"
-              alt="Almu Hero background"
-              fill
-              className="object-cover object-bottom -z-10"
-              priority
-            />
-          </div>
+        </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
             夢に向かって孤独に歩むあなたに手を添える。
@@ -48,9 +34,11 @@ export default function Home() {
             分子栄養学に基づく細胞から支えるスナック『Almu』
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-            <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
-              商品を見る
-            </button>
+            <Link href="/products">
+              <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
+                商品を見る
+              </button>
+            </Link>
           </div>
         </motion.div>
       </section>
