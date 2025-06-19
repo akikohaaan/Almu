@@ -1,4 +1,5 @@
-// import { Product } from "../types/product";
+import { Product } from "../types/product";
+import ProductCard from "../components/ProductCard";
 
 const products: Product[] = [
   {
@@ -18,3 +19,16 @@ const products: Product[] = [
     tags: ["糖質制限", "抗酸化"],
   },
 ];
+
+export default function ProductsPage() {
+  return (
+    <main className="p-8">
+      <h1 className="text-3xl font-bold mb-6">商品一覧</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {products.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
+    </main>
+  );
+}
