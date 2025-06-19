@@ -16,7 +16,7 @@ export default function Header() {
                     <div className="flex space-x-4 text-gray-600">
                        <Link href="/">
                             <Image
-                                src="../AlmuLogo.png"
+                                src="/AlmuLogo.png"
                                 alt="Almu Logo"
                                 width={120}
                                 height={120}
