@@ -19,7 +19,7 @@ export default function ProductCard({ product }: Props) {
         <h2 className="text-2xl font-semibold">{product.name}</h2>
         <p className="text-sm text-gray-600">{product.description}</p>
         <ul className="flex flex-wrap gap-2 text-xs text-white">
-          {product.tags.map((tag:string, index:string) => (
+          {product.tags.map((tag:string, index:number) => (
             <li key={index} className="bg-pink-600 px-2 py-1 rounded">
               {tag}
             </li>
