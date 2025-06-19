@@ -12,19 +12,17 @@ export default function Header() {
                 <p>発売記念！10%クーポン配布。</p>
             </div>
             {/* 🌟 ヘッダーナビゲーションバー */}
-                <div className="bg-white shadow-md">
-
-                    <Link href="/">
-                                <Image
-                                    src="/AlmuLogoRecutangular.png"
-                                    alt="Almu Logo"
-                                    width={120}
-                                    height={120}
-                                    className="mb-6 mx-auto"
-                                />
-                            </Link>
+                <div className="bg-white shadow-md">                    
                     <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                       
+                       <Link href="/">
+                            <Image
+                                src="../public/AmluLogo.png"
+                                alt="Almu Logo"
+                                width={120}
+                                height={120}
+                                className="mb-6 mx-auto"
+                            />
+                        </Link>
                         {/* ナビゲーションリンク */}
                         <nav className="flex space-x-6 text-sm">
                              
