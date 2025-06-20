@@ -34,7 +34,7 @@ export default function Home() {
             分子栄養学に基づく細胞から支えるスナック『Almu』
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-            <Link href="/products">
+            <Link href="/products" className="text-gray-700 hover:underline">
               <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
                 商品を見る
               </button>
