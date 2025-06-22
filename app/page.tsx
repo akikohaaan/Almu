@@ -9,15 +9,8 @@ export default function Home() {
     <main className="font-sans text-gray-800">
       {/* 🌄 Hero Section */}
       <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
-
-        {/* ロゴとテキスト */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="z-10 text-white px-4 space-y-6"
-        >
-        <div className="absolute inset-0 [object-position:50%_10%]">
+        {/* 背景画像 */}
+        <div className="absolute inset-0 [object-position:50%_0%]">
           <Image
             src="/AlmuLogoWithNature.png"
             alt="Almu Hero background"
@@ -27,6 +20,14 @@ export default function Home() {
           />
         </div>
 
+
+        {/* ロゴとテキスト */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="z-10 text-white px-4 space-y-6"
+        >
           <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
             夢に向かって孤独に歩むあなたに手を添える。
           </h1>
