@@ -17,13 +17,13 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="z-10 text-white px-4 space-y-6"
         >
-        <div className="absolute inset-0 [object-position:50%_30%]">
+        <div className="absolute inset-0 [object-position:50%_10%]">
           <Image
             src="/AlmuLogoWithNature.png"
             alt="Almu Hero background"
             fill
             className="object-cover object-bottom -z-10"
-            // priority
+            priority
           />
         </div>
 
