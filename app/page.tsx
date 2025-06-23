@@ -7,11 +7,21 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className="font-sans text-gray-800">
-      {/* 🌄 Hero Section */}
-      <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
+
+      <section className="relative h-[80vh] md:h-screen flex items-center justify-center text-white">
+      {/* 背景画像 */}
+      <Image
+        src="/Almu_logo_clear.png" 
+        alt="Almu background"
+        fill
+        className="object-cover object-center z-[-1]"
+        priority
+      />
+           {/* 🌄 Hero Section */}
+      {/* <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50"> */}
         {/* 背景画像 */}
 
-          <div className="position:20% inset-0 z-0">
+          {/* <div className="position:20% inset-0 z-0">
             <Image
               src="/AlmuLogoWithNature.png"
               alt="Almu Hero background"
@@ -19,7 +29,7 @@ export default function Home() {
               className="object-cover object-center"
               priority
             />
-          </div>      
+          </div>       */}
 
 
         {/* ロゴとテキスト */}
