@@ -6,9 +6,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="font-sans text-gray-800">
-
-      <section className="relative h-[80vh] md:h-screen flex items-center justify-center text-white">
+    <main className="font-sans text-gray-800">     
+      <section className="relative h-[80vh] md:h-screen flex flex-col items-center justify-center text-center text-white">
         <div className="position:20% inset-0 z-0">
         {/* 背景画像 */}
         <Image
@@ -18,38 +17,33 @@ export default function Home() {
           className="object-cover object-center z-[-1]"
           priority
         />
+        
         </div>
-           {/* 🌄 Hero Section */}
-      {/* <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50"> */}
-        {/* 背景画像 */}
 
-          {/* <div className="position:20% inset-0 z-0">
-            <Image
-              src="/AlmuLogoWithNature.png"
-              alt="Almu Hero background"
-              fill
-              className="object-cover object-center"
-              priority
-            />
-          </div>       */}
-
-
-        {/* ロゴとテキスト */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="z-10 text-white px-4 space-y-6"
-        >
-          <h1 className="text-green text-4xl sm:text-5xl font-bold drop-shadow-lg">
-            Almu
-          </h1>
-          <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
-            夢に向かって孤独に歩むあなたに手を添える。
-          </h1>
-          <p className="text-lg drop-shadow">
-            分子栄養学に基づく細胞から支えるスナック
-          </p>
+         <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="z-10 text-white px-4 space-y-6"
+          >
+            <h1 className="text-green text-4xl sm:text-5xl font-bold drop-shadow-lg">
+              Almu
+            </h1>
+            <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
+              夢に向かって孤独に歩むあなたに手を添える。
+            </h1>
+            <p className="text-lg drop-shadow">
+              分子栄養学に基づく細胞から支えるスナック
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+              <Link href="/products">
+                <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
+                  商品を見る
+                </button>
+              </Link>
+            </div>
+          </motion.div>
+        </section>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
             <Link href="/products" className="text-gray-700 hover:underline">
