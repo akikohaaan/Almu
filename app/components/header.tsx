@@ -30,7 +30,7 @@ export default function Header() {
                     <Link href="/products" className="hover:underline">
                         商品一覧
                     </Link>
-                    <Link href="/aboutMct" className="hover:underline">
+                    <Link href="/aboutMCT" className="hover:underline">
                         MCTオイルについて
                     </Link>
                     <Link href="/aboutLakanka" className="hover:underline">
