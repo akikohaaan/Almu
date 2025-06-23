@@ -45,7 +45,7 @@ export default function Home() {
 
   <section className="relative h-[80vh] md:h-screen flex flex-col items-center justify-center text-center text-white">
     <Image
-      src="/Almu_logo_without_name.png"
+      src="/EVERESTBC_HERO.JPG"
       alt="Almu background"
       fill
       className="object-cover object-[50%_50%] z-[-1]"
