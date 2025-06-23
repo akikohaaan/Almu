@@ -52,7 +52,7 @@ export default function Home() {
       priority
     />
     <h2 className="text-3xl font-semibold text-white-800">Almuの想い</h2>
-    <p className="mt-6 text-gray-700 leading-loose">
+    <p className="mt-6 text-white-700 leading-loose">
       夢に向かって歩みを止めないあなたへ。<br />
       誰にも頼れない夜、孤独のなかでふと手に取るスナックが、<br />
       あなたを内側からそっと支えられたら。<br />
