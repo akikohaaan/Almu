@@ -48,7 +48,7 @@ export default function Home() {
       src="/Almu_logo_without_name.png"
       alt="Almu background"
       fill
-      className="object-cover object-bottom z-[-1]"
+      className="object-cover object-[30%_10%] z-[-1]"
       priority
     />
     <h2 className="text-3xl font-semibold text-gray-800">Almuの想い</h2>
