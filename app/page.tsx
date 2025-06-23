@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="font-sans text-gray-800">
 
-      <section className="relative h-[80vh] md:h-screen flex items-center justify-center text-white">
+      <section className="relative h-[80vh] md:h-screen flex items-center justify-center">
       {/* 背景画像 */}
       <Image
         src="/Almu_logo_without_name.png"
@@ -39,10 +39,10 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="z-10 text-white px-4 space-y-6"
         >
-          <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
+          <h1 className="text-4xl text-white sm:text-5xl font-bold drop-shadow-lg">
             夢に向かって孤独に歩むあなたに手を添える。
           </h1>
-          <p className="text-lg drop-shadow">
+          <p className="text-lg text-white drop-shadow">
             分子栄養学に基づく細胞から支えるスナック
           </p>
           <h2 className="text-green text-lg drop-shadow">Almu</h2>
