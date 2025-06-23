@@ -8,7 +8,7 @@ export default function AlmuPage() {
       {/* Hero セクション */}
       <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
         <Image
-          src="/bridWithMountain.JPG"
+          src="/birdWithMontain.JPG"
           alt="Background"
           fill
           className="object-cover object-center -z-10"
