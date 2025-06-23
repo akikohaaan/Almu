@@ -51,7 +51,7 @@ export default function Home() {
       className="object-cover object-[50%_50%] z-[-1]"
       priority
     />
-    <h2 className="text-3xl font-semibold text-gray-800">Almuの想い</h2>
+    <h2 className="text-3xl font-semibold text-white-800">Almuの想い</h2>
     <p className="mt-6 text-gray-700 leading-loose">
       夢に向かって歩みを止めないあなたへ。<br />
       誰にも頼れない夜、孤独のなかでふと手に取るスナックが、<br />
