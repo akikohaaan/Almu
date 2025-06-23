@@ -13,7 +13,7 @@ export default function Home() {
       src="/Almu_logo_without_name.png"
       alt="Almu background"
       fill
-      className="object-cover object-[50%_10%] z-[-1]"
+      className="object-cover object-[10%_10%] z-[-1]"
       priority
     />
 
@@ -43,7 +43,7 @@ export default function Home() {
     </motion.div>
   </section>
 
-  <section className="px-6 py-12 bg-white text-center">
+  <section className="relative h-[80vh] md:h-screen flex flex-col items-center justify-center text-center text-white">
     <Image
       src="/Almu_logo_without_name.png"
       alt="Almu background"
