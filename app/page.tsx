@@ -13,7 +13,7 @@ export default function Home() {
     src="/Almu_logo_without_name.png"
     alt="Almu background"
     fill
-    className="object-cover object-top z-[-1]"
+    className="object-cover object-[top:20%] z-[-1]"
     priority
   />
 
@@ -43,6 +43,13 @@ export default function Home() {
   </motion.div>
 </section>
       <section className="px-6 py-12 bg-white text-center">
+        <Image
+          src="/Almu_logo_without_name.png"
+          alt="Almu background"
+          fill
+          className="object-cover object-bottom z-[-1]"
+          priority
+        />
         <h2 className="text-3xl font-semibold text-gray-800">Almuの想い</h2>
         <p className="mt-6 text-gray-700 leading-loose">
           夢に向かって歩みを止めないあなたへ。<br />
