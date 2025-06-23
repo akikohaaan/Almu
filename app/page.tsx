@@ -10,15 +10,16 @@ export default function Home() {
       {/* 🌄 Hero Section */}
       <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50">
         {/* 背景画像 */}
-        <div className="absolute inset-0 [object-position:50%_0%]">
-          <Image
-            src="/AlmuLogoWithNature.png"
-            alt="Almu Hero background"
-            fill
-            className="object-cover object-bottom -z-10"
-            priority
-          />
-        </div>
+
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/AlmuLogoWithNature.png"
+              alt="Almu Hero background"
+              fill
+              className="object-cover object-center"
+              priority
+            />
+          </div>      
 
 
         {/* ロゴとテキスト */}
