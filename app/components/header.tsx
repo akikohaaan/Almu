@@ -39,7 +39,7 @@ export default function Header() {
                     <Link href="/molecular_nutrition" className="hover:underline">
                         分子栄養学に基づく健康知識
                     </Link>
-                    <Link href="/about" className="hover:underline">
+                    <Link href="/aboutAlmu" className="hover:underline">
                         Almuの想い
                     </Link>
                 </nav>

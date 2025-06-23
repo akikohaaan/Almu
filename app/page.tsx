@@ -61,6 +61,11 @@ export default function Home() {
       高機能・低糖質・高タンパクのスナック。<br />
       細胞レベルで、あなたの「本当の力」を引き出します。
     </p>
+    <p>
+      <Link href="/aboutAlmu" className="hover:underline">
+       Almuの想い
+      </Link>
+    </p>
   </section>
     </main>
   );

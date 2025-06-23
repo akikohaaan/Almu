@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-export default function AboutPage() {
+export default function AlmuPage() {
   return (
     <main className="text-gray-800 font-sans">
       {/* Hero セクション */}
