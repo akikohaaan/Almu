@@ -11,7 +11,7 @@ export default function Home() {
       <section className="relative h-[80vh] md:h-screen flex items-center justify-center text-white">
       {/* 背景画像 */}
       <Image
-        src="/Almu_logo_clear.png" 
+        src="/Almu_logo_without_name.png"
         alt="Almu background"
         fill
         className="object-cover object-center z-[-1]"
