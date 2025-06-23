@@ -13,19 +13,21 @@ export default function Header() {
             </div>
             {/* 🌟 ヘッダーナビゲーションバー */}
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                <div className="bg-white shadow-md">         
-                    <Link href="/">
-                        <Image
-                            src="/AlmuLogo.png"
-                            alt="Almu Logo"
-                            width={60}
-                            height={60}
-                            className="mr-4"
-                        />
-                    </Link>
+                
+                    <div className="bg-white shadow-md">    
+                        <nav className="flex space-x-6 text-sm">            
+                        <Link href="/">
+                            <Image
+                                src="/AlmuLogo.png"
+                                alt="Almu Logo"
+                                width={60}
+                                height={60}
+                                className="mr-4"
+                            />
+                        </Link>
                           
                         {/* ナビゲーションリンク */}
-                    <nav className="flex space-x-6 text-sm">                  
+                               
                         <Link href="/products" className="text-gray-700 hover:underline">
                             商品一覧
                         </Link>
@@ -40,14 +42,15 @@ export default function Header() {
                             Almuの想い
                         </Link>
                         <Link href="contact" className="text-gray-700 hover:underline"></Link>
-                    </nav>
+                   
                     
-                    {/* アイコン */}
-                    <div className="flex space-x-4 text-gray-600">
-                        <span className="cursor-pointer">🔍</span>
-                        <span className="cursor-pointer">👤</span>
-                        <span className="cursor-pointer">🛒</span>
-                    </div>
+                        {/* アイコン */}
+                        <div className="flex space-x-4 text-gray-600">
+                            <span className="cursor-pointer">🔍</span>
+                            <span className="cursor-pointer">👤</span>
+                            <span className="cursor-pointer">🛒</span>
+                        </div>
+                     </nav>
                 </div>
             </div>
         </header>
