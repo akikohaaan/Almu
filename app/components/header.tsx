@@ -19,8 +19,8 @@ export default function Header() {
                     <Image
                         src="/AlmuLogo.png"
                         alt="Almu Logo"
-                        width={60}
-                        height={60}
+                        width={80}
+                        height={80}
                         className="mr-6"
                     />
                 </Link>
