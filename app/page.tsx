@@ -12,7 +12,7 @@ export default function Home() {
         <div className="position:20% inset-0 z-0">
         {/* 背景画像 */}
         <Image
-          src="/Almu_logo_clear.png" 
+          src="/Almu_logo_without_name.png" 
           alt="Almu background"
           fill
           className="object-cover object-center z-[-1]"
