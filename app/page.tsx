@@ -8,15 +8,17 @@ export default function Home() {
   return (
     <main className="font-sans text-gray-800">
 
-      <section className="relative h-[80vh] md:h-screen flex items-center justify-center">
-      {/* 背景画像 */}
-      <Image
-        src="/Almu_logo_without_name.png"
-        alt="Almu background"
-        fill
-        className="object-cover object-center z-[-1]"
-        priority
-      />
+      <section className="relative h-[80vh] md:h-screen flex items-center justify-center text-white">
+        <div className="position:20% inset-0 z-0">
+        {/* 背景画像 */}
+        <Image
+          src="/Almu_logo_clear.png" 
+          alt="Almu background"
+          fill
+          className="object-cover object-center z-[-1]"
+          priority
+        />
+        </div>
            {/* 🌄 Hero Section */}
       {/* <section className="relative min-h-screen flex flex-col justify-center items-center text-center text-white bg-black/50"> */}
         {/* 背景画像 */}
@@ -39,13 +41,16 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="z-10 text-white px-4 space-y-6"
         >
-          <h1 className="text-4xl text-white sm:text-5xl font-bold drop-shadow-lg">
+          <h1 className="text-green text-4xl sm:text-5xl font-bold drop-shadow-lg">
+            Almu
+          </h1>
+          <h1 className="text-4xl sm:text-5xl font-bold drop-shadow-lg">
             夢に向かって孤独に歩むあなたに手を添える。
           </h1>
-          <p className="text-lg text-white drop-shadow">
+          <p className="text-lg drop-shadow">
             分子栄養学に基づく細胞から支えるスナック
           </p>
-          <h2 className="text-green text-lg drop-shadow">Almu</h2>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
             <Link href="/products" className="text-gray-700 hover:underline">
               <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded">
