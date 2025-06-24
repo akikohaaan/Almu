@@ -53,7 +53,7 @@ export default function LakankaPage() {
           心の揺れを減らす第一歩は、血糖の安定から。
         </p>
 
-        <p className="text-right font-semibold text-green-700">
+        <p className="text-center font-semibold text-green-700">
           ー 甘さは、やさしさ。
         </p>
       </section>
