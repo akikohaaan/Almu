@@ -41,7 +41,7 @@ export default function MCTPage() {
         </p>
         <div className="flex justify-center">
           <Image
-            src="/mct-oil.png"
+            src="/mct_oil.png"
             alt="MCTオイルの瓶"
             width={500}
             height={350}
